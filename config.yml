@@ -1,0 +1,26 @@
+# If enabled players will need "slimeindicator.command" set to true to use the main command!
+requirePerms: true
+
+# Should a sound be played when a player identifies a slime chunk?
+doSound: true
+
+# If enabled above what sound should be played when in slime chunk?
+soundSettings:
+  sound: ENTITY_SLIME_SQUISH
+  vol: 1
+  pitch: 1
+
+# Action Bar message - Supports Hex Colors & Color Codes [Hex: &#000000]
+isSlimeChunkActionBar: "&#4D993B[&#8AD480Slime Chunk&#4D993B]"
+isNotSlimeChunkActionBar: "&#4D993B[&#22431ANormal Chunk&#4D993B]"
+
+# The item that detects chunks
+item:
+  name: §2§lSlimy Detector
+  type: SLIME_BALL
+
+# messages for literally everything
+message:
+  ran-out-of-uses: "§4§lSorry! §r§4You ran out of uses for this item!"
+  give-item: "You were given the holy Slime Detector"
+  no-permission: "§4§lSorry! §r§4You don't have permission to use this command!"
