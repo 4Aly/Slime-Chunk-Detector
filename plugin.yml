@@ -1,0 +1,16 @@
+name: SlimeChunkDetector
+version: '${project.version}'
+main: me.slimechunk.slimechunkdetector.SlimeChunkDetector
+api-version: 1.18
+prefix: Slime-Detector
+authors: [ UrSoMeanLOL ]
+description: detect if the chunk you're in is a slimechunk
+commands:
+  sdcheck:
+    description: Checks if the chunk your in is a slime chunk!
+    aliases:
+      - chunkcheck
+      - checkslime
+      - isslime
+  sdgive:
+    description: Gives you the chunk check item!
